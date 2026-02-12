@@ -8,6 +8,15 @@ url: "https://loguerci.github.io"
 baseurl: "/CLASS_website"
 repository: "loguerci/CLASS_website"
 
+# Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "Photos"
+    url: /photo
+  - title: "Audio files"
+    url: /audio
+
 # Theme
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: "default"
@@ -23,15 +32,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/loguerci/LASS_PAM"
-
-# Navigation
-main:
-  - title: "Home"
-    url: /
-  - title: "Photos"
-    url: /photo
-  - title: "Audio files"
-    url: /audio
 
 # Site Footer
 footer:
