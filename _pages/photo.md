@@ -1,49 +1,51 @@
 ---
 title: "Photos"
-layout: collection
-permalink: /photo
+layout: single
+permalink: /photo/
 author_profile: false
 classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-#   overlay_image: /images/particles.jpg
 excerpt: "Pictures of the recording session"
 ---
 
-<html>  
-<!-- <span style="color:red"><b>Warning: Due to authorization issues, we are not able yet to provide all the images. </b> </span> -->
+<style>
+#container {
+  display: flex;
+  gap: 20px;
+}
+#left-column, #right-column {
+  flex: 1;
+}
+figure {
+  margin: 20px 0;
+}
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+</style>
 
 <div id="container">
   <div id="left-column">
-<figure>
-<img src="/images/image_1.jpeg"
-     alt="Auditorium"/>
-<!-- <figcaption>Stage with mics</figcaption> -->
-</figure>
+    <figure>
+      <img src="{{ site.baseurl }}/images/image_1.jpeg" alt="Auditorium"/>
+    </figure>
 
-<figure>
-<img src="/images/image_2.jpeg"
-     alt="Auditorium"/>
-<!-- <figcaption>Auditorium</figcaption> -->
-</figure>
+    <figure>
+      <img src="{{ site.baseurl }}/images/image_2.jpeg" alt="Auditorium"/>
+    </figure>
 
-<figure>
-<img src="/images/image_3.jpeg"
-     alt="Auditorium"/>
-</figure>
-
-
-
+    <figure>
+      <img src="{{ site.baseurl }}/images/image_3.jpeg" alt="Auditorium"/>
+    </figure>
+  </div>
+  
+  <div id="right-column">
+    <figure>
+      <img src="{{ site.baseurl }}/images/image_4.jpeg" alt="Auditorium"/>
+    </figure>
+  </div>
 </div>
-<div id="right-column">
-
-<figure>
-<img src="/images/image_4.jpeg"
-     alt="Auditorium"/>
-</figure>
-
-
-</div>
-</div>
-</html>

@@ -24,6 +24,15 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/loguerci/LASS_PAM"
 
+# Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "Photos"
+    url: /photo
+  - title: "Audio files"
+    url: /audio
+
 # Site Footer
 footer:
   links:
