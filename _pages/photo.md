@@ -39,15 +39,23 @@ figure img {
     </figure>
 
     <figure>
-      <img src="{{ site.baseurl }}/images/image_2.jpeg" alt="Auditorium"/>
+      <img src="{{ site.baseurl }}/images/image_3.jpeg" alt="Auditorium"/>
     </figure>
 
     <figure>
-      <img src="{{ site.baseurl }}/images/image_3.jpeg" alt="Auditorium"/>
+      <img src="{{ site.baseurl }}/images/image_5.jpeg" alt="Auditorium"/>
+    </figure>
+
+    <figure>
+      <img src="{{ site.baseurl }}/images/image_6.jpeg" alt="Auditorium"/>
     </figure>
   </div>
   
   <div id="right-column">
+    <figure>
+      <img src="{{ site.baseurl }}/images/image_2.jpeg" alt="Auditorium"/>
+    </figure>
+
     <figure>
       <img src="{{ site.baseurl }}/images/image_4.jpeg" alt="Auditorium"/>
     </figure>
