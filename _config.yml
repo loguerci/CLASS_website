@@ -1,45 +1,63 @@
+# Site Settings
 title: "Sound recording and Music sound separation project"
+title_separator: "-"
+subtitle: "ATIAM Project 2025-2026"
+name: "LASS PAM Team"
 description: "MSS project using CLASS and FastMNMF"
-url: "https://sourceseparation2025-2026.github.io"
-baseurl: "/LASS_PAM"
+url: "https://loguerci.github.io"
+baseurl: "/CLASS_website"
+repository: "loguerci/CLASS_website"
+
+# Theme
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-
-# Plugins
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-
-# Navigation
 minimal_mistakes_skin: "default"
 
-# Menu principal
-header:
-  pages:
-    - title: "Photos"
-      url: /photo/
-    - title: "Audio files"
-      url: /audio/
-    - title: "Test"
-      url: /test/
-
-# Auteur
+# Site Author
 author:
-  name: "Loïs Guerci, Louis Gosselin, Samy Benzaïm, Antonin Longeot, Jean-Henri Nothias"
-  email: "guerci@ircam.fr"
+  name: "LASS PAM Team"
+  avatar: # "/assets/images/bio-photo.jpg"
   bio: "ATIAM students - IRCAM, Paris"
+  location: "Paris, France"
+  email: "guerci@ircam.fr"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/loguerci/LASS_PAM"
 
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/loguerci/LASS_PAM"
+
+# Reading Files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
 # Defaults
 defaults:
   - scope:
       path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: "_pages"
+      type: pages
     values:
       layout: single
       author_profile: true
