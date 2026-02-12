@@ -10,10 +10,13 @@ header:
 excerpt: "Pictures of the recording session"
 ---
 
+[← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
+
 <style>
 #container {
   display: flex;
   gap: 20px;
+  margin-top: 30px;
 }
 #left-column, #right-column {
   flex: 1;
@@ -25,6 +28,7 @@ figure img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 </style>
 
@@ -49,3 +53,7 @@ figure img {
     </figure>
   </div>
 </div>
+
+---
+
+[← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
