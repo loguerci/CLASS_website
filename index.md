@@ -1,10 +1,9 @@
 ---
 layout: splash
-title: "Acoustic sound recording and Music sound separation"
+title: "Acoustic Sound Recording and Music Sound Separation"
 header:
-  overlay_color: "#000"
+  overlay_color: "#00000083"
   overlay_filter: "0.5"
-excerpt: "ATIAM Master Project - IRCAM 2025-2026"
 ---
 
 ## Introduction
