@@ -13,9 +13,8 @@ excerpt: "Audio examples from our recording session"
 # Recorded audio (original mix)
 
 During the session, we asked the three musicians to play the following musical pieces :
-    - Hey Jude by The Beatles
 
-> First 30 seconds
+> Hey Jude by The Beatles (first 30 seconds)
 
 <html>
 <audio controls>
@@ -23,23 +22,19 @@ During the session, we asked the three musicians to play the following musical p
 </audio>
 </html>
 
-    - Don't Know Why by Norah Jones
-
-> First 30 seconds
+> Don't Know Why by Norah Jones (first 30 seconds)
 
 <html>
 <audio controls>
-  <source src="/audio/hey_jude.mp3">
+  <source src="audio/hey_jude.mp3">
 </audio>
 </html>
 
-    - I will Survive by Gloria Gaymor
-
-> First 30 seconds
+> I will Survive by Gloria Gaymor (first 30 seconds)
 
 <html>
 <audio controls>
-  <source src="/audio/i_will_survive.mp3">
+  <source src="audio/i_will_survive.mp3">
 </audio>
 </html>
 
