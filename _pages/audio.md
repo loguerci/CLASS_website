@@ -40,4 +40,3 @@ During the session, we asked the three musicians to play the following musical p
 ---
 
 [← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
-```
