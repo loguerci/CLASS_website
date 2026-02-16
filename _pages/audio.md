@@ -15,31 +15,31 @@ excerpt: "Audio examples from our recording session"
 During the session, we asked the three musicians to play the following musical pieces :
     - Hey Jude by The Beatles
 
-> Full mix
+> First 30 seconds
 
 <html>
 <audio controls>
-  <source src="audio/PAM_Dont_know_why.wav">
+  <source src="audio/dont_know_why.mp3">
 </audio>
 </html>
 
     - Don't Know Why by Norah Jones
 
-> Full mix
+> First 30 seconds
 
 <html>
 <audio controls>
-  <source src="/audio/PAM_Hey_Jude.wav">
+  <source src="/audio/hey_jude.mp3">
 </audio>
 </html>
 
     - I will Survive by Gloria Gaymor
 
-> Full mix
+> First 30 seconds
 
 <html>
 <audio controls>
-  <source src="/audio/Pam_I_will_survive.wav">
+  <source src="/audio/i_will_survive.mp3">
 </audio>
 </html>
 
