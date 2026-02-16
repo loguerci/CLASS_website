@@ -1,5 +1,5 @@
 ---
-title: "Audio file"
+title: "Audio files"
 layout: single
 permalink: /audio/
 author_profile: false
@@ -10,32 +10,34 @@ header:
 excerpt: "Audio examples from our recording session"
 ---
 
-# Recorded audio (original mix)
+[← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
 
-During the session, we asked the three musicians to play the following musical pieces :
+## Recorded audio (original mix)
 
-> Hey Jude by The Beatles (first 30 seconds)
+During the session, we asked the three musicians to play the following musical pieces:
 
-<html>
-<audio controls>
-  <source src="audio/dont_know_why.mp3">
+### Hey Jude by The Beatles (first 30 seconds)
+
+<audio controls style="width: 100%; margin: 20px 0;">
+  <source src="{{ site.baseurl }}/audio/hey_jude.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
-</html>
 
-> Don't Know Why by Norah Jones (first 30 seconds)
+### Don't Know Why by Norah Jones (first 30 seconds)
 
-<html>
-<audio controls>
-  <source src="audio/hey_jude.mp3">
+<audio controls style="width: 100%; margin: 20px 0;">
+  <source src="{{ site.baseurl }}/audio/dont_know_why.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
-</html>
 
-> I will Survive by Gloria Gaymor (first 30 seconds)
+### I Will Survive by Gloria Gaynor (first 30 seconds)
 
-<html>
-<audio controls>
-  <source src="audio/i_will_survive.mp3">
+<audio controls style="width: 100%; margin: 20px 0;">
+  <source src="{{ site.baseurl }}/audio/i_will_survive.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
-</html>
 
+---
 
+[← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
+```
