@@ -13,6 +13,7 @@ This page is dedicated to a project conducted within the ATIAM Master’s progra
 
 View full paper here (soon)
 [View Recording Session Photos]({{ site.baseurl }}/photo/){: .btn .btn--primary}
+[View Recording Session audio files]({{ site.baseurl }}/audio/){: .btn .btn--primary}
 
 
 ## Abstract
