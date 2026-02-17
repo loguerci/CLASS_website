@@ -153,6 +153,91 @@ audio {
   </div>
 </div>
 
+## Results with the FastMNMF2 algorithm
+
+Here we present the results of the FastMNMF2 performance on Don't Know Why by Gloria Gaymor:
+
+### FastMNMF2 randomly initialized :
+
+<style>
+.audio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+}
+.audio-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+}
+.audio-item p {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #444;
+}
+audio {
+  width: 100%;
+}
+</style>
+
+<div class="audio-grid">
+  <div class="audio-item">
+    <p>Full mix</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_20.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Saxophone only (using "saxophone" prompt)</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_random_sax.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Violin only (using "violin" promp)t</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_random_violon.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Piano only (using "piano" prompt)</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_random_piano.wav" type="audio/wav">
+    </audio>
+  </div>
+</div>
+
+### FastMNMF2 initialized with the note dictionary (matrix W) :
+
+<div class="audio-grid">
+  <div class="audio-item">
+    <p>Full mix</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_20.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Saxophone only (using "saxophone" prompt)</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_W_sax.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Violin only (using "violin" promp)t</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_W_violon.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Piano only (using "piano" prompt)</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_W_piano.wav" type="audio/wav">
+    </audio>
+  </div>
+</div>
+
 ---
 
 [← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
