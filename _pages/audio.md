@@ -82,7 +82,7 @@ audio {
     </audio>
   </div>
   <div class="audio-item">
-    <p>Violin only (using "violin" promp)t</p>
+    <p>Violin only (using "violin" prompt)</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/class/hey_jude_violon.wav" type="audio/wav">
     </audio>
@@ -190,19 +190,19 @@ audio {
     </audio>
   </div>
   <div class="audio-item">
-    <p>Saxophone only (using "saxophone" prompt)</p>
+    <p>Saxophone only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_MNMF_2/dont_know_why_random_sax.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
-    <p>Violin only (using "violin" promp)t</p>
+    <p>Violin only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_MNMF_2/dont_know_why_random_violon.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
-    <p>Piano only (using "piano" prompt)</p>
+    <p>Piano only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_MNMF_2/dont_know_why_random_piano.wav" type="audio/wav">
     </audio>
@@ -219,19 +219,19 @@ audio {
     </audio>
   </div>
   <div class="audio-item">
-    <p>Saxophone only (using "saxophone" prompt)</p>
+    <p>Saxophone only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_MNMF_2/dont_know_why_W_sax.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
-    <p>Violin only (using "violin" promp)t</p>
+    <p>Violin only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_MNMF_2/dont_know_why_W_violon.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
-    <p>Piano only (using "piano" prompt)</p>
+    <p>Piano only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_MNMF_2/dont_know_why_W_piano.wav" type="audio/wav">
     </audio>
