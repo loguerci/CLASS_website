@@ -10,7 +10,7 @@ header:
 
 This page is dedicated to a project conducted within the ATIAM Master’s program. The objective of this project is to separate a trio consisting of a tenor saxophonist, a violinist, and a pianist, recorded together in an acoustic room, as if each instrument had been recorded independently. Our approach is based on the relationship between microphone placement strategies for high-quality sound recording and a source separation algorithm combining deep learning and signal processing methods.
 
-View full paper here (soon)
+[Read full paper]({{ site.url }}/assets/test.pdf)
 [View Recording Session Photos]({{ site.baseurl }}/photo/){: .btn .btn--primary}
 [View Recording Session audio files]({{ site.baseurl }}/audio/){: .btn .btn--primary}
 
