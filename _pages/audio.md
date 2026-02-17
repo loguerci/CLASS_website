@@ -84,7 +84,7 @@ audio {
   <div class="audio-item">
     <p>Violin only (using "violin" promp)t</p>
     <audio controls>
-      <source src="{{ site.baseurl }}/audio/class/hey_jude_violin.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/audio/class/hey_jude_violon.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
@@ -113,7 +113,7 @@ audio {
   <div class="audio-item">
     <p>Violin only (using "violin" prompt)</p>
     <audio controls>
-      <source src="{{ site.baseurl }}/audio/class/dont_know_why_violin.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_violon.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
@@ -142,7 +142,7 @@ audio {
   <div class="audio-item">
     <p>Violin only (using "violin" prompt)</p>
     <audio controls>
-      <source src="{{ site.baseurl }}/audio/class/i_will_survive_violin.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/audio/class/i_will_survive_violon.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
