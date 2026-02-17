@@ -16,6 +16,8 @@ main:
     url: /photo
   - title: "Audio files"
     url: /audio
+  - title: "Paper"
+    url: /assets/test.pdf
 
 # Theme
 remote_theme: mmistakes/minimal-mistakes@4.24.0
