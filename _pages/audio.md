@@ -192,19 +192,19 @@ audio {
   <div class="audio-item">
     <p>Saxophone only</p>
     <audio controls>
-      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_random_sax.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_rand_sax.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
     <p>Violin only</p>
     <audio controls>
-      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_random_violon.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_rand_violon.wav" type="audio/wav">
     </audio>
   </div>
   <div class="audio-item">
     <p>Piano only</p>
     <audio controls>
-      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_random_piano.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_rand_piano.wav" type="audio/wav">
     </audio>
   </div>
 </div>
@@ -234,6 +234,35 @@ audio {
     <p>Piano only</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_W_piano.wav" type="audio/wav">
+    </audio>
+  </div>
+</div>
+
+### FastMNMF2 initialized with the CLASS-net (matrix H) :
+
+<div class="audio-grid">
+  <div class="audio-item">
+    <p>Full mix</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_20.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Saxophone only</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_H_sax.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Violin only</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_H_violon.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Piano only</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_H_piano.wav" type="audio/wav">
     </audio>
   </div>
 </div>
