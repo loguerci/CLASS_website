@@ -19,21 +19,21 @@ During the session, we asked the three musicians to play the following musical p
 ### Hey Jude by The Beatles (first 30 seconds)
 
 <audio controls style="width: 100%; margin: 20px 0;">
-  <source src="{{ site.baseurl }}/audio/hey_jude.mp3" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/audio/hey_jude.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Don't Know Why by Norah Jones (first 30 seconds)
 
 <audio controls style="width: 100%; margin: 20px 0;">
-  <source src="{{ site.baseurl }}/audio/dont_know_why.mp3" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/audio/dont_know_why.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### I Will Survive by Gloria Gaynor (first 30 seconds)
 
 <audio controls style="width: 100%; margin: 20px 0;">
-  <source src="{{ site.baseurl }}/audio/i_will_survive.mp3" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/audio/i_will_survive.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
