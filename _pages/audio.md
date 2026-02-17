@@ -88,7 +88,7 @@ audio {
     </audio>
   </div>
   <div class="audio-item">
-    <p>Piano only(using "piano" prompt)</p>
+    <p>Piano only (using "piano" prompt)</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/class/hey_jude_piano.wav" type="audio/wav">
     </audio>
@@ -117,7 +117,7 @@ audio {
     </audio>
   </div>
   <div class="audio-item">
-    <p>Piano only(using "piano" prompt)</p>
+    <p>Piano only (using "piano" prompt)</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/class/dont_know_why_piano.wav" type="audio/wav">
     </audio>
@@ -146,7 +146,7 @@ audio {
     </audio>
   </div>
   <div class="audio-item">
-    <p>Piano only(using "piano" prompt)</p>
+    <p>Piano only (using "piano" prompt)</p>
     <audio controls>
       <source src="{{ site.baseurl }}/audio/class/i_will_survive_piano.wav" type="audio/wav">
     </audio>
