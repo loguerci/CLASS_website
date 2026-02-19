@@ -267,6 +267,37 @@ audio {
   </div>
 </div>
 
+
+
+### FastMNMF2 initialized with the SCM (matrix Q) :
+
+<div class="audio-grid">
+  <div class="audio-item">
+    <p>Full mix</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/class/dont_know_why_20.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Saxophone only</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_Q_sax.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Violin only</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_Q_violon.wav" type="audio/wav">
+    </audio>
+  </div>
+  <div class="audio-item">
+    <p>Piano only</p>
+    <audio controls>
+      <source src="{{ site.baseurl }}/audio/fast_mnmf_2/dont_know_why_Q_piano.wav" type="audio/wav">
+    </audio>
+  </div>
+</div>
+
 ---
 
 [← Back to Home]({{ site.baseurl }}/){: .btn .btn--inverse}
