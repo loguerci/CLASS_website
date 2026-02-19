@@ -157,7 +157,7 @@ audio {
 
 Here we present the results of the FastMNMF2 performance on Don't Know Why by Gloria Gaymor:
 
-### FastMNMF2 randomly initialized :
+### FastMNMF2 initialized blindly :
 
 <style>
 .audio-grid {
